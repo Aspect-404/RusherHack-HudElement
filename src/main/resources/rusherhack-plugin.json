@@ -1,0 +1,13 @@
+{
+  "Plugin-Class": "dev.aspect404.hudelement.Loader",
+  "Name": "Hud Element",
+  "Version": "${plugin_version}",
+  "Description": "Super customizable text hud element for rusherhack!",
+  "Authors": [
+    "Aspect404_"
+  ],
+  "Minecraft-Versions": [
+    "1.20.4",
+    "1.21"
+  ]
+}
