@@ -29,7 +29,6 @@ public class CustomHudElement extends HudElement {
             final Boolean shouldDisplay = index < 5;
             final String text = shouldDisplay ? strings[index] : "";
             final Color color = shouldDisplay ? new Color(colors[index], true) : Color.RED;
-            ChatUtils.print(shouldDisplay + " " + text + " " + color);
             final StringSetting stringSetting = new StringSetting("String", "The string to display.", text);
             final ColorSetting colorSetting = new ColorSetting("Color", "The color to display this string as.", color);
             stringSetting.addSubSettings(colorSetting); this.stringSettings.addSubSettings(stringSetting);
